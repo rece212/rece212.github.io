@@ -179,7 +179,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['getnamesxhosa'])) {
         'Yamkela',
         'Zimkhitha'
     );
-
     // Return the array as a JSON object
     header('Content-Type: application/json');
     echo json_encode($names);
