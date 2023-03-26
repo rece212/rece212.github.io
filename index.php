@@ -1,0 +1,187 @@
+<?php
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['getnamesafrikaans'])) 
+{
+
+    $names = array(
+        'Pieter',
+        'Jan',
+        'Johan',
+        'Sarel',
+        'Gert',
+        'Hendrik',
+        'Jacobus',
+        'Jaco',
+        'Kobus',
+        'Frans',
+        'Willem',
+        'Adriaan',
+        'Barend',
+        'Karel',
+        'Johannes',
+        'Marthinus',
+        'Andries',
+        'Theunis',
+        'Gideon',
+        'Lourens',
+        'Lodewyk',
+        'Petrus',
+        'Christiaan',
+        'Roelof',
+        'Fanie',
+        'Jurgens',
+        'Ludwig',
+        'Hansie',
+        'Frik',
+        'Herman',
+        'Ernst',
+        'Eugene',
+        'Louis',
+        'Jannie',
+        'Gerhard',
+        'Charl',
+        'Stephanus',
+        'Tjaart',
+        'Tobias',
+        'Werner',
+        'Heinrich',
+        'Johan',
+        'Lynette',
+        'Adri',
+        'Alet',
+        'Annelie',
+        'Anri',
+        'Elmarie',
+        'Esmeralda',
+        'Helene',
+        'Irene',
+        'Juanita'
+    );
+
+    // Return the array as a JSON object
+    header('Content-Type: application/json');
+    echo json_encode($names);
+}
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['getnamesenglish'])) {
+
+    $names = array(
+        'John',
+        'Mary',
+        'Michael',
+        'Jessica',
+        'Christopher',
+        'Ashley',
+        'William',
+        'Emily',
+        'Daniel',
+        'Amanda',
+        'David',
+        'Jennifer',
+        'Matthew',
+        'Elizabeth',
+        'Joseph',
+        'Sarah',
+        'Andrew',
+        'Stephanie',
+        'Joshua',
+        'Nicole',
+        'Robert',
+        'Lauren',
+        'James',
+        'Megan',
+        'Ryan',
+        'Brittany',
+        'Brian',
+        'Samantha',
+        'Jason',
+        'Taylor',
+        'Kevin',
+        'Hannah',
+        'Eric',
+        'Kelsey',
+        'Steven',
+        'Alexis',
+        'Thomas',
+        'Rachel',
+        'Timothy',
+        'Anna',
+        'Jonathan',
+        'Rebecca',
+        'Adam',
+        'Victoria',
+        'Nicholas',
+        'Olivia',
+        'Jacob',
+        'Emma',
+        'Tyler',
+        'Grace'
+    );
+
+    // Return the array as a JSON object
+    header('Content-Type: application/json');
+    echo json_encode($names);
+}
+
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['getnamesxhosa'])) {
+
+    $names = array(
+        'Anele',
+        'Buntu',
+        'Cikizwa',
+        'Dalisu',
+        'Esona',
+        'Fikile',
+        'Gcinikhaya',
+        'Hlengiwe',
+        'Iminathi',
+        'Jabulile',
+        'Khanyisa',
+        'Lihle',
+        'Mandisa',
+        'Noluthando',
+        'Onela',
+        'Phumzile',
+        'Qaqamba',
+        'Rethabile',
+        'Sanelisiwe',
+        'Thembeka',
+        'Uviwe',
+        'Vuyelwa',
+        'Wamukelwe',
+        'Xabiso',
+        'Yibanathi',
+        'Zanemvula',
+        'Akhona',
+        'Bandile',
+        'Cwenga',
+        'Dingaan',
+        'Elwandle',
+        'Fumani',
+        'Gwebindlala',
+        'Hlamalani',
+        'Inathi',
+        'Jwambi',
+        'Khumo',
+        'Lithemba',
+        'Mangaliso',
+        'Nolubabalo',
+        'Owethu',
+        'Phila',
+        'Qiniso',
+        'Rholihlahla',
+        'Sazi',
+        'Thulani',
+        'Unathi',
+        'Vusumzi',
+        'Wandile',
+        'Xolani',
+        'Yamkela',
+        'Zimkhitha'
+    );
+
+    // Return the array as a JSON object
+    header('Content-Type: application/json');
+    echo json_encode($names);
+}
+?>
